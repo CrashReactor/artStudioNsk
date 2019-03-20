@@ -1,0 +1,307 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/opensanslight.woff2') format('woff2'), url('../fonts/opensans/opensanslight.woff') format('woff'), url('../fonts/opensans/opensanslight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/opensanslightitalic.woff2') format('woff2'), url('../fonts/opensans/opensanslightitalic.woff') format('woff'), url('../fonts/opensans/opensanslightitalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/opensans.woff2') format('woff2'), url('../fonts/opensans/opensans.woff') format('woff'), url('../fonts/opensans/opensans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src:  url('../fonts/opensans/opensansitalic.woff2') format('woff2'), url('../fonts/opensans/opensansitalic.woff') format('woff'), url('../fonts/opensans/opensansitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/opensanssemibold.woff2') format('woff2'), url('../fonts/opensans/opensanssemibold.woff') format('woff'), url('../fonts/opensans/opensanssemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/opensanssemibolditalic.woff2') format('woff2'), url('../fonts/opensans/opensanssemibolditalic.woff') format('woff'), url('../fonts/opensans/opensanssemibolditalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/opensansbold.woff2') format('woff2'), url('../fonts/opensans/opensansbold.woff') format('woff'), url('../fonts/opensans/opensansbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/opensansbolditalic.woff2') format('woff2'), url('../fonts/opensans/opensansbolditalic.woff') format('woff'), url('../fonts/opensans/opensansbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src:  url('../fonts/opensans/opensansextrabold.woff2') format('woff2'), url('../fonts/opensans/opensansextrabold.woff') format('woff'), url('../fonts/opensans/opensansextrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src:  url('../fonts/opensans/opensansextrabolditalic.woff2') format('woff2'), url('../fonts/opensans/opensansextrabolditalic.woff') format('woff'), url('../fonts/opensans/opensansextrabolditalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bitter';
+    src: url('../fonts/bitter/bitter.woff2') format('woff2'), url('../fonts/bitter/bitter.woff') format('woff'), url('../fonts/bitter/bitter.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bitter';
+    src: url('../fonts/bitter/bitteritalic.woff2') format('woff2'), url('../fonts/bitter/bitteritalic.woff') format('woff'), url('../fonts/bitter/bitteritalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Bitter';
+    src: url('../fonts/bitter/bitterbold.woff2') format('woff2'), url('../fonts/bitter/bitterbold.woff') format('woff'), url('../fonts/bitter/bitterbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bitter';
+    src: url('../fonts/bitter/bitterbolditalic.woff2') format('woff2'), url('../fonts/bitter/bitterbolditalic.woff') format('woff'), url('../fonts/bitter/bitterbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+html {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+body h1, h2, h3, h4, h5, h6, li  {
+  font-family: 'Open Sans';
+  color: #222222;
+}
+
+body p {
+  font-family: 'Bitter';
+  color: #222222;
+}
+
+.sidebar {
+  width: 250px;
+  position: fixed;
+  height: 100%;
+  display: block;
+  box-shadow: inset -3px 0 8px -2px #aaa;
+  -webkit-box-shadow: inset -3px 0 8px -2px #aaa;
+  -o-box-shadow: inset -3px 0 8px -2px #aaa;
+  -moz-box-shadow: inset -3px 0 8px -2px #aaa;
+  -ms-box-shadow: inset -3px 0 8px -2px #aaa;
+}
+.sidebar header {
+  width: 180px;
+  padding-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.sidebar header img {
+  float: left;
+}
+
+.sidebar h3 {
+  text-shadow: 2px 2px 0 rgba(0,0,0,0.2);
+  font-size: 21px;
+  font-weight: 800;
+  float: right;
+}
+
+.streamer {
+  position: absolute;
+  bottom: 0;
+}
+
+.streamer img {
+  width: 248px;
+}
+
+#all_content {
+  margin-left: 250px;
+  display: block;
+}
+
+.about {
+  position: fixed;
+  background-color: #212020;
+  text-align: center;
+  width: 100%;
+  -moz-box-shadow:0px 3px 5px 1px rgba(97, 96, 97,1) ;
+  -o-box-shadow:0px 3px 5px 1px rgba(97, 96, 97,1) ;
+  box-shadow:0px 3px 5px 1px rgba(97, 96, 97,1) ;
+  z-index: 1;
+}
+
+.about img {
+  position: absolute;
+  visibility: hidden;
+}
+
+.about h3 {
+  visibility: hidden;
+  position: absolute;
+}
+
+.about nav {
+  display: block;
+  margin-right: 250px;
+}
+
+.about nav li {
+  display: inline;
+}
+
+.about li a {
+  text-shadow: 2px 2px 0 rgba(0,0,0,0.4);
+  display: inline-block;
+  padding: 20px 10px 20px 10px;
+  color: #FFFDFA;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.about li a:hover { 
+  color: #09C4EF;
+}
+
+video {
+  padding-top: 100px;
+}
+
+.gallery {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: 100%;
+}
+
+.headline {
+  padding-top: 150px;
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headline h3 {
+  padding: 25px 0px 25px 0px;
+  border-top: 1px solid #AAA;
+  border-bottom: 1px solid #AAA;
+  color: #3a3a3a;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.headline h3 span {
+  font-weight: 800;
+}
+
+.containerForGallery {
+  padding-top: 94px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 200px;
+  display: block;
+}
+
+
+.swipebox {
+  display: block;
+  text-decoration: none;
+  margin: 10px;
+  width: 212px;
+}
+
+.containerForGallery a:hover {
+ -webkit-box-shadow: 0px 0px 28px -2px rgba(0,0,0,0.75);
+ -moz-box-shadow: 0px 0px 28px -2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 28px -2px rgba(0,0,0,0.75);
+}
+
+
+.swipebox img {
+  display: block;
+  border: solid 1px #3a3a3a;
+}
+
+.name {
+  display: block;
+  font-size: 14px;
+  background-color: #3a3a3a;
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans';
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+footer {
+  width: 100%;
+  clear: both;
+}
+
+.basement {
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-image: url("../images/footer_image.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.social {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding-top: 300px;
+}
+
+.social img {
+  padding: 0px 10px 0px 10px;
+}
+
+.about #forSmall {
+    display: none;
+}
+
+.footerInfa h4{
+  color: white;
+  text-align: center;
+  line-height: normal;
+}
+
+
+
+
+
+
+

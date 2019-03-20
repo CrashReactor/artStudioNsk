@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Изостудия Открытие | Занятия</title>
+    <link rel="stylesheet" href="CSS/Reset.css">
+    <link rel="stylesheet" href="CSS/Base.css" media="(min-width: 1201px)">
+    <link rel="stylesheet" href="CSS/Intermedium.css" media="(min-width: 993px) and (max-width: 1200px)">
+    <link rel="stylesheet" href="CSS/Medium.css" media="(min-width: 852px) and (max-width: 992px)">
+    <link rel="stylesheet" href="CSS/Small.css" media="(min-width: 481px) and (max-width: 851px)">
+    <link rel="stylesheet" href="CSS/Nano.css" media="(max-width: 480px)">
+  </head>
+  <body>
+    <div class="sidebar">
+      <header>
+	<a href=""><img src="images/IMG00729.jpg" width="44px" alt="logotype"/>
+	<h3>Изостудия<br><span>Открытие</span></h3></a>
+      </header>
+      <div class="streamer">
+	<img src="images/pictureForSidebar.gif"/>
+      </div>
+    </div>
+    <div id="all_content"> 
+      <div class="main_content">
+        <div class="about">
+	  <div class="logo_left">
+	    <img src="images/IMG00729.jpg" width="44px" alt="logotype"/>
+	    <h3>Изостудия <br> Открытие</h3>
+	  </div>
+	  <a id="burger">
+       	    <span></span>
+       	    <span></span>
+       	    <span></span>
+       	  </a>
+     	  <a id="burgerclose">
+       	    <span class="left-cross"></span>
+       	    <span class="right-cross"></span>
+          </a>
+          <nav>
+            <ul>
+	      <li><a href="../index.html">СТУДИЯ</a></li>
+	      <li><a href="../lessons/b.html">ЗАНЯТИЯ</a></li>
+	      <li><a href="../gallery/c.html">ПОРТФОЛИО</a></li>
+	      <li><a href="../news/e.html">СОБЫТИЯ</a></li>
+	      <li><a href="../contacte/d.html"">КОНТАКТЫ</a></li>
+            </ul>
+          </nav>
+	  <nav id="forSmall">
+	    <ul id="containerForSmall">
+	      <li><a href="../index.html">СТУДИЯ</a></li>
+	      <li><a href="../lessons/b.html">ЗАНЯТИЯ</a></li>
+	      <li><a href="../gallery/c.html">ПОРТФОЛИО</a></li>
+	      <li><a href="../news/e.html">СОБЫТИЯ</a></li>
+	      <li><a href="../contacte/d.html"">КОНТАКТЫ</a></li>
+            </ul>
+	  </nav>
+        </div>
+      <div class="lessons">
+	<div class="Curriculum">
+	  <h1>Учебная программа</h1>
+	  <h3>Обучающая программа включает в себя</h3>
+	</div>
+	<div class="Bases_picture">
+	  <h2>Основы рисунка</h2>
+	  <img src="images/grafit.jpg" alt="grafit_pictures"/>
+	  <h5>Карандаш, бумага. Композиция из двух сложных предметов.</h5>
+	  <p>
+      	    На уроках рисунка Вы научитесь передаче объема, пространства и 
+	    среды с помощью такого изобразительного средства как простой карандаш.
+	  </p>
+	</div>
+	<div class="Chromatics">
+	  <h2>Цветоведение</h2>
+	  <img src="images/plecho.jpg" alt="coloristic_pictures"/>
+	  <h5>Елена Ефремова. Чудо Цвет. Гуашь, бумага. Монотипия.</h5>
+	  <p>
+	     На уроках цветоведения Вы получите знания о цветовом круге Гёте и цветовом 
+	     круге Оствальда.
+	  </p>
+	</div>
+	<div class="Composition">
+	  <h2>Композиция</h2>
+	  <img src="images/abc.jpg" alt="composition_pictures"/>
+	  <h5>Плечевое движение. Галина Попова</h5>
+	  <p>
+	     На уроках композиции мы познакомимся с правилами, приемами и средствами 
+	     композиции: кинетикой, ритмом и техникой плечевого движения.
+	  </p>
+	</div>
+	<div class="Painting">
+	  <h2>Живопись</h2>
+	  <img src="images/Painting.jpg" alt="painting_pictures"/>
+	  <h5>Светлана Леденева. Масло, холст</h5>
+	  <p>
+	     На уроках живописи мы учимся лепке объема и пространства цветом, изучаем 
+	     игру теплохолодности цветов.
+	  </p>
+	</div>
+      </div>
+      <footer>
+	<div class="basement">
+	  <div class="social">
+	    <a href="http://vk.com/club4804039"><img src="images/v.png" width="80" height="80" alt="Вк"/></a>
+	    <div class="footerInfa">
+	       <h4>&copy;2016 год Новосибирск.<br>
+	           Дизайнер и администратор сайта Султанов Артём.</a><br>
+	           Email: younggalaxy@yandex.ru</h4>
+	    </div>
+	  </div>
+	</div>
+      </footer>
+    </div><!--конец all_content-->
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script> 
+     $(document).ready(function(){
+       $("#burger").click(function(){
+        $("#forSmall").css({display: 'block'});
+        $("#burger").css("display", "none");
+        $("#burgerclose").css("display", "block");
+       });
+     });
+    </script>
+    <script type="text/javascript"> 
+      $(document).ready(function(){
+        $("#burgerclose").click(function(){
+         $("#forSmall").css({display: 'none'});
+         $("#burger").css("display", "block");
+         $("#burgerclose").css("display", "none");
+        });
+      });
+    </script>
+  </body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

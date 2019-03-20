@@ -1,0 +1,407 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/opensanslight.woff2') format('woff2'), url('../fonts/opensans/opensanslight.woff') format('woff'), url('../fonts/opensans/opensanslight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/opensanslightitalic.woff2') format('woff2'), url('../fonts/opensans/opensanslightitalic.woff') format('woff'), url('../fonts/opensans/opensanslightitalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/opensans.woff2') format('woff2'), url('../fonts/opensans/opensans.woff') format('woff'), url('../fonts/opensans/opensans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src:  url('../fonts/opensans/opensansitalic.woff2') format('woff2'), url('../fonts/opensans/opensansitalic.woff') format('woff'), url('../fonts/opensans/opensansitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/opensanssemibold.woff2') format('woff2'), url('../fonts/opensans/opensanssemibold.woff') format('woff'), url('../fonts/opensans/opensanssemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/opensanssemibolditalic.woff2') format('woff2'), url('../fonts/opensans/opensanssemibolditalic.woff') format('woff'), url('../fonts/opensans/opensanssemibolditalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/opensansbold.woff2') format('woff2'), url('../fonts/opensans/opensansbold.woff') format('woff'), url('../fonts/opensans/opensansbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/opensansbolditalic.woff2') format('woff2'), url('../fonts/opensans/opensansbolditalic.woff') format('woff'), url('../fonts/opensans/opensansbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src:  url('../fonts/opensans/opensansextrabold.woff2') format('woff2'), url('../fonts/opensans/opensansextrabold.woff') format('woff'), url('../fonts/opensans/opensansextrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src:  url('../fonts/opensans/opensansextrabolditalic.woff2') format('woff2'), url('../fonts/opensans/opensansextrabolditalic.woff') format('woff'), url('../fonts/opensans/opensansextrabolditalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bitter';
+    src: url('../fonts/bitter/bitter.woff2') format('woff2'), url('../fonts/bitter/bitter.woff') format('woff'), url('../fonts/bitter/bitter.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bitter';
+    src: url('../fonts/bitter/bitteritalic.woff2') format('woff2'), url('../fonts/bitter/bitteritalic.woff') format('woff'), url('../fonts/bitter/bitteritalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Bitter';
+    src: url('../fonts/bitter/bitterbold.woff2') format('woff2'), url('../fonts/bitter/bitterbold.woff') format('woff'), url('../fonts/bitter/bitterbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bitter';
+    src: url('../fonts/bitter/bitterbolditalic.woff2') format('woff2'), url('../fonts/bitter/bitterbolditalic.woff') format('woff'), url('../fonts/bitter/bitterbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+
+body h1, h2, h3, h4, h5, h6, li  {
+  font-family: 'Open Sans';
+  color: #222222;
+}
+
+body p {
+  font-family: 'Bitter';
+  color: #222222;
+}
+
+
+
+.sidebar {
+   position: absolute;
+   visibility: hidden;
+}
+
+
+#all_content {
+  display: block;
+}
+
+
+.about {
+  position: fixed;
+  background-color: #212020;
+  right: 0;
+  left: 0;
+  -moz-box-shadow:0px 3px 5px 1px rgba(97, 96, 97,1) ;
+  -o-box-shadow:0px 3px 5px 1px rgba(97, 96, 97,1) ;
+  box-shadow:0px 3px 5px 1px rgba(97, 96, 97,1) ;
+  
+}
+
+.logo_left {
+  float: left;
+  
+}
+
+.about img {
+  float: left;
+  padding: 5px 0px 5px 5px;
+  display: inline-block;
+}
+
+.about h3 {
+  padding: 11px 0px 5px 10px;
+  color: white;
+  display: inline-block;
+  float: right;
+}
+
+.about nav {
+  display: none;
+  padding-right: 40px;
+  float: left;
+}
+
+.about nav li {
+  display: inline;
+}
+
+.about li a {
+  text-shadow: 2px 2px 0 rgba(0,0,0,0.4);
+  display: inline-block;
+  padding: 20px 10px 20px 10px;
+  color: #FFFDFA;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.about li a:hover { 
+  color: #09C4EF;
+}
+
+#forSmall {
+  display: none;
+  width: 100%;
+}
+
+#containerForSmall {
+  display: block;
+  width: 100%;
+  background-color: #212020;
+  text-align: center;
+}
+
+#containerForSmall li {
+  display: inline;
+}
+
+#containerForSmall li a {
+  display: inline-block;
+}
+
+
+#burger {
+  float: right;
+  display: block;
+  width: 32px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  cursor:pointer;
+  margin-right:30px;
+  height:auto;
+}
+
+#burger span {
+  display: block;
+  width: 100%;
+  height: 5px;
+  margin-bottom: 2px;
+  background-color: #a0a0a0;
+}
+
+#burger:hover span {
+  background-color: #dc3349;
+}
+
+#burgerclose {
+  display: none;
+  float: right;
+  width: 32px;
+  height: 32px;
+  margin-top: 12px;
+  margin-right:30px;
+  cursor: pointer;
+}
+
+#burgerclose span {
+  display: block;
+  width: 32px;
+  height: 5px;
+  background-color: #a0a0a0;
+}
+#burgerclose:hover span {
+  background-color: #dc3349;
+}
+
+#burgerclose .left-cross {
+  margin-top: 13px;
+  -ms-transform: rotate(45deg); 
+  -webkit-transform: rotate(45deg); 
+  transform: rotate(45deg);
+}
+
+#burgerclose .right-cross {
+  margin-top: -5px;
+  -ms-transform: rotate(-45deg); 
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.lessons {
+  width: 100%;
+  display: block;
+  text-align: center;
+  
+}
+
+.lessons h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 64px;
+  color: #3a3a3a;
+  
+}
+
+.lessons h2 {
+  font-size: 36px;
+  padding-bottom: 50px;
+  line-height: 21px;
+  font-weight: 600;
+  color: #3a3a3a;
+}
+
+.lessons h3 {
+  font-size: 21px;
+  line-height: 41px;
+  color: #3a3a3a;
+}
+
+.lessons p {
+  font-size: 16px;
+  padding-top: 50px;
+  line-height: 21px;
+  color: #676767;
+  font-weight: 400;
+}
+
+.lessons .Painting {
+  padding-bottom: 100px;
+}
+
+.Curriculum, .Bases_picture, .Chromatics, .Composition, .Painting {
+  width: 90%;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Bases_picture h5 {
+  background-color: #868686;
+  display: block;
+  color: white;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 0px 5px 0px ;
+  line-height: 19px;
+}
+
+.Bases_picture img {
+  
+  display: block;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+
+.Chromatics h5 {
+  background-color: #FFC100;
+  display: block;
+  color: white;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 0px 5px 0px ;
+  line-height: 19px;
+}
+
+.Chromatics img {
+  display: block;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.Composition h5 {
+  background-color: #617DAF;
+  display: block;
+  color: white;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 0px 5px 0px ;
+}
+
+.Composition img {
+  display: block;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Painting h5 {
+  background-color: #D39D33;
+  display: block;
+  color: white;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 0px 5px 0px ;
+}
+
+.Painting img {
+ 
+  display: block;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  width: 100%;
+  clear: both;
+}
+
+.basement {
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-image: url("../images/footer_image.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.social {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding-top: 300px;
+}
+
+.social img {
+  padding: 0px 10px 0px 10px;
+}
+
+.footerInfa h4{
+  color: white;
+  text-align: center;
+  line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
